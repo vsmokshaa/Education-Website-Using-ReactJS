@@ -1,7 +1,8 @@
 .hero {
-  background-image: url("../../../../public/images/bg.webp");
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-image: url("../../../../public/images/bg.webp"); */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  background-color: #FDF4F5;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,10 +11,10 @@
   height: 100vh;
   padding-top: 20%;
   padding-right: 50px;
-  color: #fff;
+  color: #643A6B;
 }
 .hero #heading h3 {
-  color: #fff;
+  color: #643A6B;
 }
 .hero #heading {
   text-align: left;
@@ -23,9 +24,8 @@
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
-  }
+    }
   .hero {
-    background-position: right;
     padding-top: 50%;
     height: 80vh;
   }
